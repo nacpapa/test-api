@@ -1,4 +1,4 @@
-import { Environment, ExpressWebServer } from "shared/infrastructure";
+import { Environment, ExpressWebServer } from "../src/shared/infrastructure";
 
 const server = new ExpressWebServer();
 console.log("test");

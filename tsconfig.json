@@ -8,9 +8,6 @@
     "baseUrl": "./src",
     "rootDirs": ["src"],
     "outDir": "./dist",
-    "paths": {
-      "shared/infrastructure": ["./shared/infrastructure"],
-    },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
