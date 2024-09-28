@@ -15,12 +15,7 @@ app.get('/', (req, res) => {
 });
 
 
-app.get("/healthcheck", async (req, res) => {
-  return res.status(200).send({
-    database: "OK",
-    cache: "OK",
-  });
-});
+
 
 app.listen(port, () => {
   console.log(`Servidor en staging main http://localhost:${port}`);
